@@ -1,106 +1,109 @@
-Financial Institution Project
+# Financial Institution Project
+*Data Visualization & Analysis Using SQL, Python, and Tableau*
 
-A Data-Driven Visualization & Analysis System Using SQL, Python, and Tableau
+---
 
-📌 Overview
+## 📌 Project Overview
+This project converts traditional financial passbook data into an interactive analytics system. Using **SQL**, **Python**, and **Tableau**, it provides insights into customer behavior, loan patterns, savings trends, and transaction activity for a financial institution.
 
-This project transforms traditional passbook-based financial records into a digital, interactive analytics system.
-Using SQL, Python, and Tableau, I designed a set of dashboards that reveal customer behavior, savings trends, loan patterns, and transaction insights for a small financial institution.
+> **Note:** All data in this repository is **synthetic or anonymized for demonstration purposes**. Real customer data and full SQL/Python scripts are private.
 
-Note: All data displayed in this public repository is synthetic (fake) and generated solely for demonstration purposes.
-No real customer information is shared.
-All SQL and Python source tables used in the real project are kept private.
+---
 
-📊 Project Components
-1. SQL Database Design (Private)
+## 📂 Repository Structure
 
-Created structured SQL tables for customers, savings, loans, and transactions.
+Financial-Institution-Project/
+│
+├── README.md # Project documentation
+├── LICENSE # All Rights Reserved license
+├── images/ # Tableau dashboard screenshots
+├── sql/ # SQL queries (examples/public snippets)
+├── python/ # Python scripts (data cleaning & processing)
+├── tableau/ # Tableau workbook files (visualization workbooks)
 
-Cleaned and transformed raw records from physical passbooks.
 
-Performed aggregation, filtering, joins, and derived calculations.
+---
 
-SQL code is stored in a private repository for confidentiality.
+## 🖼 Dashboard Screenshots
+Click the images to view full-size screenshots:
 
-2. Python Data Cleaning (Private)
+- [Customer Dashboard](Customer%20Dashbaord.png)  
+- [Loan Dashboard](Loan%20Dashboard.png)  
+- [Saving Dashboard](Saving%20Dashboard.png)  
+- [Transaction Dashboard](Transaction%20Dashboard.png)  
 
-Handled missing values, data-type fixes, and validation checks.
+> These images show the final Tableau dashboards. The underlying workbooks are in `/tableau/`.
 
-Ensured datasets were fully ready for Tableau ingestion.
+---
 
-Python scripts remain private.
+## 💻 SQL Queries
+Example SQL files for reference:
 
-3. Tableau Dashboards (Public Visuals Only)
+- [Customer Based Queries](Customer%20Based%20Queries.sql)  
+- [New Customer Based Queries](NewCustomer%20Based%20Queries.sql)  
+- [Owner Based Queries](Owner%20Based%20Queries.sql)  
 
-This repository includes screenshots of the Tableau dashboards I created:
+> Full SQL scripts are private to protect sensitive data.
 
-Customer Dashboard (demographics, regional map, balance vs loan trend)
+---
 
-Loans Dashboard (loan type insights, interest rate analysis, loan closure timelines)
+## 🐍 Python Scripts
+Data cleaning and preparation scripts:
 
-Savings Dashboard (saving-type trends, fixed deposit dominance, top balance contributors)
+- [CustomerTable.py](CustomerTable.py)  
+- [LoanTable.py](LoanTable.py)  
+- [SavingTable.py](SavingTable.py)  
+- [TransactionTable.py](TransactionTable.py)  
 
-Transactions Dashboard (payment methods, revenue by type, heatmaps, customer activity trends)
+> These scripts process the data into clean formats for Tableau dashboards. Real datasets are private.
 
-Only dashboard images are public.
-Underlying Tableau workbook & data extracts are not shared.
+---
 
-✨ Key Insights from the Visualizations
-Customer Behavior
+## 📊 Demo Datasets
+Synthetic datasets used for demonstration:
 
-Middle-aged customers (36–50) are the largest segment.
+- [Customer_Cleaned.csv](Customer_Cleaned.csv)  
+- [Loan_Cleaned.csv](Loan_Cleaned.csv)  
+- [Saving_Cleaned.csv](Saving_Cleaned.csv)  
+- [Transaction_Cleaned.csv](Transaction_Cleaned.csv)  
 
-Eastern & central Nepal show highest customer density.
+> These are **fake data** generated for public viewing. No real customer information is included.
 
-Outstanding loans exceed current balances → credit-heavy customer base.
+---
 
-Loan Patterns
+## 🔑 Key Insights from Dashboards
 
-Education loans are most common with lowest interest.
+### Customer Dashboard
+- Middle-aged customers (36–50) dominate.  
+- Central and eastern regions have highest density.  
+- Outstanding loans exceed current balances → credit-heavy customer base.
 
-Auto loans are least common but highest interest.
+### Loan Dashboard
+- Education loans are most frequent with lowest interest.  
+- Auto loans are least frequent but highest interest.  
+- Seasonal spikes in loan issuance (March, Oct–Nov).  
+- Loans generally close near due dates → strong repayment behavior.
 
-Seasonal spikes in loan issuance (March, Oct–Nov).
+### Savings Dashboard
+- Fixed Deposits dominate; Monthly Savings are growing.  
+- Top balances span multiple years → strong retention and loyalty.
 
-Loans generally close near due dates → strong repayment behavior.
+### Transaction Dashboard
+- Cash and card payments drive most revenue.  
+- Loan payments contribute the largest transaction amounts.  
+- Cheque usage is minimal.
 
-Saving Trends
+  
+## 📜 License
+This project is protected under **All Rights Reserved**.
 
-Fixed Deposits dominate the savings portfolio.
+© 2025 Banditaa Chalise
+All rights reserved.
 
-Monthly savings have grown significantly in recent years.
+No part of this repository, including code, data, or visualizations, may be copied, distributed, or used without explicit written permission from the author.
 
-Strong customer retention reflected in repeated high balances.
+## 📬 Contact
+For questions about the project or to request access to private code:
 
-Transaction Insights
-
-Cash and card payments drive most revenue.
-
-Cheque usage is minimal.
-
-Loan payments represent the largest transaction amounts.
-
-🗂 Included in This Repository
-
-/images/ — dashboard screenshots
-
-/data/ — synthetic demo dataset (clearly marked as fake)
-
-README.md — documentation (this file)
-
-🔒 Data & Copyright Notice
-
-© All Rights Reserved — Banditaa Chalise
-
-Real data, SQL queries, and Python scripts are not included.
-
-No part of the private components may be copied, reproduced, or redistributed.
-
-Public dashboard images are for viewing only.
-
-📬 Contact
-
-If you’d like to discuss the project, the analytical process, or the dashboards:
-
-Email: banditaachalise@gmail.com
-LinkedIn: https://www.linkedin.com/in/banditachalise/ 
+**Email:** *banditaachalise@gmail.com*  
+**LinkedIn:** *https://www.linkedin.com/in/banditachalise/*

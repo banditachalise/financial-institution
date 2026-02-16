@@ -8,19 +8,59 @@ This project converts traditional financial passbook data into an interactive an
 
 > **Note:** All data in this repository is **synthetic or anonymized for demonstration purposes**. Real customer data and full SQL/Python scripts are private.
 
----
 
-## 📂 Repository Structure
+🛠 Technical Skills Demonstrated
+Data extraction using SQL queries and relational joins
+Data cleaning and transformation using Python (pandas)
+Handling missing values and duplicate records
+Standardizing formats (dates, categorical variables)
+Structuring datasets into analysis-ready CSV files
+Data validation and quality checks
+Dashboard development in Tableau
+Documentation of workflow for reproducibility
 
+⭐ Featured Code Sample
+See python/CustomerTable.py for a representative example of:
+Loading raw data
+Cleaning and validating records
+Standardizing formats
+Exporting structured datasets for analysis
+This script demonstrates practical data preparation skills aligned with real-world analytics workflows.
+
+
+📂 Repository Structure
 Financial-Institution-Project/
 │
-├── README.md # Project documentation
-├── LICENSE # All Rights Reserved license
-├── images/ # Tableau dashboard screenshots
-├── sql/ # SQL queries (examples/public snippets)
-├── python/ # Python scripts (data cleaning & processing)
-├── tableau/ # Tableau workbook files (visualization workbooks)
+├── README.md
+├── LICENSE
+├── images/              # Dashboard screenshots
+├── sql/                 # Sample SQL queries
+├── python/              # Data cleaning & transformation scripts
+├── tableau/             # Tableau workbook files
+├── *_Cleaned.csv        # Synthetic cleaned datasets
 
+🐍 Python Data Processing
+
+The Python scripts:
+Load raw datasets
+Apply cleaning logic
+Standardize formatting
+Perform validation checks
+Export analysis-ready CSV files
+
+Primary libraries used:
+pandas
+numpy
+
+## 🐍 Python Scripts
+Data cleaning and preparation scripts:
+
+- [CustomerTable.py](CustomerTable.py)  
+- [LoanTable.py](LoanTable.py)  
+- [SavingTable.py](SavingTable.py)  
+- [TransactionTable.py](TransactionTable.py)  
+
+> These scripts process the data into clean formats for Tableau dashboards. Real datasets are private.
 
 ---
 
@@ -44,20 +84,6 @@ Example SQL files for reference:
 - [Owner Based Queries](Owner%20Based%20Queries.sql)  
 
 > Full SQL scripts are private to protect sensitive data.
-
----
-
-## 🐍 Python Scripts
-Data cleaning and preparation scripts:
-
-- [CustomerTable.py](CustomerTable.py)  
-- [LoanTable.py](LoanTable.py)  
-- [SavingTable.py](SavingTable.py)  
-- [TransactionTable.py](TransactionTable.py)  
-
-> These scripts process the data into clean formats for Tableau dashboards. Real datasets are private.
-
----
 
 ## 📊 Demo Datasets
 Synthetic datasets used for demonstration:
